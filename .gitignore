@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Django-related files
+*.log
+db.sqlite3
+*.pyc
+
+# Media and static files
+media/
+static/
+staticfiles/
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+
+# Pipenv
+Pipfile.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local settings
+local_settings.py
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
